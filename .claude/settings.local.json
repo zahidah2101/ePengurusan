@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__laravel-boost__database-schema",
+      "mcp__laravel-boost__search-docs",
+      "Bash(php artisan:*)",
+      "Bash(./vendor/bin/pint app/Models/Complaint.php app/Livewire/Complaints/Index.php database/factories/ComplaintFactory.php database/seeders/ComplaintSeeder.php --format agent)",
+      "Bash(./vendor/bin/pint app/Livewire/Complaints/Index.php routes/web.php tests/Feature/Complaints/IndexTest.php --format agent)",
+      "mcp__github__create_repository",
+      "Bash(gh auth *)",
+      "Bash(git *)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "laravel-boost"
+  ]
+}
